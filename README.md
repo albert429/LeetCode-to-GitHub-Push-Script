@@ -180,9 +180,7 @@ The script includes comprehensive error checking for:
 ---
 
 <div align="center">
-  **September 2025**
+  September 2025
   
-  **Albert Gohar**
-  
-  *ITI FullStack Python Diploma*
+  Albert Gohar
 </div>
