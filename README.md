@@ -15,7 +15,7 @@ A bash script that automates the process of organizing and pushing your LeetCode
 
 1. **Download the script**:
    ```bash
-   wget https://raw.githubusercontent.com/yourusername/your-repo/main/leetcode_push.sh
+   wget https://raw.githubusercontent.com/albert429/LeetCode-to-GitHub-Push-Script/main/leetcode_push_script.sh
    # or copy the script content to a new file
    ```
 
@@ -27,7 +27,7 @@ A bash script that automates the process of organizing and pushing your LeetCode
 3. **Configure the script**:
    Edit the `GITHUB_REPO_PATH` variable in the script to point to your local GitHub repository:
    ```bash
-   GITHUB_REPO_PATH="$HOME/leetcode-solutions"  # Change this path
+   GITHUB_REPO_PATH="$HOME/Problem-Solving"  # Change this path
    ```
 
 ## Setup Your Repository
