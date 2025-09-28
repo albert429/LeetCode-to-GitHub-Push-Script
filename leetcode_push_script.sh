@@ -6,7 +6,7 @@
 set -e  # Exit on any error
 
 # Configuration - Modify these variables
-GITHUB_REPO_PATH="$HOME/leetcode-solutions"  # Local path to your GitHub repo
+GITHUB_REPO_PATH="$HOME/Problem-Solving"  # Local path to your GitHub repo
 COMMIT_PREFIX="Add"  # Prefix for commit messages
 
 # Colors for output
@@ -83,7 +83,7 @@ create_readme() {
     local problem_name="$3"
     local solution_file="$4"
     
-    local readme_path="$problem_dir/README.md"
+    local readme_path="$GITHUB_REPO_PATH/$problem_dir/README.md"
     
     cat > "$readme_path" << EOF
 # $problem_number. $problem_name
@@ -167,7 +167,8 @@ EOF
     local new_entry="| $problem_number | $problem_link | $language | [Solution](./$solution_path/) |"
     
     # Insert the new entry after the table header
-    sed -i "/^|---|/a\\$new_entry" "$main_readme"
+    sed -i '' "/^|---|/a\\
+$new_entry" "$main_readme"
     
     print_success "Updated main README.md"
 }

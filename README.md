@@ -1,6 +1,6 @@
-# LeetCode to GitHub Push Script
+# Problem-Solving Push Script
 
-A bash script that automates the process of organizing and pushing your LeetCode solutions to a GitHub repository with proper structure and documentation.
+A bash script that automates the process of organizing and pushing your programming solutions to a GitHub repository with proper structure and documentation.
 
 ## Features
 
@@ -34,13 +34,13 @@ A bash script that automates the process of organizing and pushing your LeetCode
 
 1. **Create a new GitHub repository** (or use an existing one):
    ```bash
-   # On GitHub, create a new repository named "leetcode-solutions"
+   # On GitHub, create a new repository named "Problem-Solving"
    ```
 
 2. **Clone the repository locally**:
    ```bash
-   git clone https://github.com/yourusername/leetcode-solutions.git
-   cd leetcode-solutions
+   git clone https://github.com/yourusername/Problem-Solving.git
+   cd Problem-Solving
    ```
 
 3. **Update the script configuration** to match your local path.
